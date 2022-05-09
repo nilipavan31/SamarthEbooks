@@ -1,0 +1,126 @@
+
+.heading {
+    display: block;
+    font-size: larger;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.logo img{
+    display: block;
+    margin-left: 80px;
+    margin-top: 25px;
+    height: 80px;
+    width: 80px;
+    float: left;
+    position: absolute;
+    left: 30px;
+}
+#text {
+    margin-left: 200px;
+    float: left;
+    margin-top: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    font-family: sans-serif;
+}
+#title h2{
+    position: absolute;
+    display: block  ;
+    margin-top: 130px;
+    margin-left: 100px;
+	color:#7C019F;
+}
+#title img{
+    width: 400px;
+    height:420px;
+    position: absolute;
+    float: left;
+    top: 230px;
+}
+.sample h3{
+    position: absolute;
+    left:110px;
+    top:680px;
+	color:#7C019F;
+}
+.sample h4{
+    position: absolute;
+    left:110px;
+    top:710px;
+}
+.eng {
+    position: absolute;
+    left:110px;
+    top:760px;
+    font-size:15px;
+    color: rgb(241, 123, 87);
+}
+.ma{
+    position: absolute;
+    left:110px;
+    top:790px;
+	color:navyblue;
+}
+.moreText{
+    display: none;
+}
+.read-more-btn{
+    padding: 15px 60px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hello.show-more .moreText{
+    display: inline;
+}
+
+
+
+.box{
+    background: rgba(233, 230, 230, 0.322) none repeat scroll 0 0;
+    display: block;
+    font-size: 18px;
+    margin: 120px ;
+    padding: 42px !important;
+    width: 430px;
+    height: 320px;
+    box-shadow: 10px 10px 5px gray;
+}
+.container{
+    float: right;
+    position: absolute;
+    left:540px;
+}
+.container input[type="text"]{
+    position: absolute;
+    right:220px;
+    height: 40px;
+    width: 220px ;
+    border: 1px solid #666;
+    border-radius: 4px;
+}
+.container .btn{
+    background: #816cfa none repeat scroll 0 0;
+    border-radius: 0;
+    color: rgb(255, 254, 254);
+    display: block;
+    float: right;
+    font-size: 16px;
+    margin-top: 65px;
+    margin-right: -40px;
+    padding: 15px 0;
+    transition: all 0.3s ease 0s;
+    width: 165px;
+}
+.photo img{
+    position: absolute;
+    top:490px;
+    right:300px;
+    width: 300px;
+}
+
+
+

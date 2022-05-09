@@ -1,0 +1,245 @@
+
+.heading {
+    display: block;
+    font-size: larger;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.logo img{
+    display: block;
+    margin-left: 80px;
+    margin-top: 25px;
+    height: 80px;
+    width: 80px;
+    float: left;
+    position: absolute;
+    left: 30px;
+}
+.color{
+    color:#693880;
+}
+#text {
+    margin-left: 200px;
+    float: left;
+    margin-top: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(47, 45, 139);
+    font-family: sans-serif;
+}
+.email{
+    margin-top: 10px;
+}
+#title h2{
+    position: absolute;
+    display: block  ;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+#title img{
+    width: 400px;
+    height:420px;
+    position: absolute;
+    float: left;
+    top: 230px;
+}
+.sample h3{
+    position: absolute;
+    left:110px;
+    top:680px;
+}
+.sample h4{
+    position: absolute;
+    left:110px;
+    top:710px;
+}
+.eng {
+    position: absolute;
+    left:110px;
+    top:760px;
+    font-size:15px;
+    color: rgb(241, 123, 87);
+}
+.ma{
+    position: absolute;
+    left:110px;
+    top:790px;
+}
+.list1{
+    position: absolute;
+    left: 110px;
+}
+.moreText{
+    display: none;
+}
+.read-more-btn{
+    padding: 15px 60px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hello.show-more .moreText{
+    display: inline;
+}
+
+.content{
+    position: absolute;
+    margin-left: 120px;
+    width: 550px;
+    display:block;}
+
+.box{
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    display: block;
+    font-size: 18px;
+    margin: 120px ;
+
+    padding: 42px !important;
+    width: 430px;
+    height: 320px;
+    box-shadow: 10px 10px 5px gray;
+}
+.container{
+    float: right;
+    position: absolute;
+    left:540px;
+}
+.container input[type="text"]{
+    position: absolute;
+    right:220px;
+    height: 40px;
+    width: 220px ;
+    border: 1px solid #666;
+    border-radius: 4px;
+}
+.lables{
+    position: absolute;
+    margin-left: 200px;
+}
+.payment h2{
+    color: #392e75;
+}
+.container .btn{
+    background: #241868 none repeat scroll 0 0;
+    border-radius: 0;
+    color: rgb(255, 254, 254);
+    display: block;
+    float: right;
+    font-size: 16px;
+    margin-top: 65px;
+    margin-right: -40px;
+    padding: 15px 0;
+    transition: all 0.3s ease 0s;
+    width: 165px;
+}
+.photo img{
+    position: absolute;
+    top:490px;
+    right:300px;
+    width: 300px;
+}
+
+
+.btn {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.container1{
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    display: block;
+    font-size: 18px;
+    margin: 46 ;
+
+    padding: 42px !important;
+    width: 430px;
+    height: 320px;
+    box-shadow:10px 10px 5px gray;
+    
+}
+.container2{
+    background: rgba(255, 255, 255) ;
+    display: block;
+    font-size: 18px;
+    margin: 46px ;
+    margin-left: 400px;
+    padding: 42px !important;
+    width: 450px;
+    height: 600px;
+    /*box-shadow: 10px 10px 5px gray;*/
+
+}
+.fontclass{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.btn1{
+    border-radius: 4px;
+    background-color: #41b651;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.theme-desktop::before {
+    content: '';
+    top: 0;
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: inherit;
+}
+
+.theme-desktop.light::before {
+    background-image: url(https://cdn.razorpay.com/static/assets/paymentpages/light_desktop.svg);
+}
+body {
+    color: #515978;
+    -webkit-font-smoothing: antialiased;
+}
+
